@@ -7,9 +7,11 @@ gdehoog@wharton.upenn.edu
 ## Education
 
 **The Wharton School, University of Pennsylvania, Philadelphia, PA** — *Aug 2026 – May 2030*
+
 *Bachelor of Science in Economics, Concentration in Finance*
 
 **University of Richmond, Richmond, VA** — *Aug 2025 – May 2026*
+
 *Pursued a B.S. in Business Administration (Finance) and a B.S. in Computer Science*
 
 - Cumulative GPA: 4.00/4.00
