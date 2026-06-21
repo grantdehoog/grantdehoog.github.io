@@ -26,6 +26,7 @@
       font-size: 0.9em;
       color: #444;
     }
+    header .contact a { color: #444; }
     h2 {
       font-size: 1.05em;
       text-transform: uppercase;
@@ -35,7 +36,7 @@
       margin: 24px 0 12px;
     }
     .entry {
-      margin-bottom: 14px;
+      margin-bottom: 16px;
     }
     .entry-head {
       display: flex;
@@ -59,11 +60,14 @@
     li {
       margin-bottom: 3px;
     }
-    p.line {
-      margin: 4px 0;
+    .projects a {
+      color: #0645ad;
+      text-decoration: none;
     }
+    .projects a:hover { text-decoration: underline; }
     @media print {
       body { margin: 0; }
+      .projects a { color: #1a1a1a; }
     }
   </style>
 </head>
@@ -71,8 +75,7 @@
   <header>
     <h1>Grant DeHoog</h1>
     <div class="contact">
-      31 Massachusetts Avenue, Boston, MA 02115<br>
-      504-644-8963 &nbsp;|&nbsp; grant.dehoog@icloud.com
+      <a href="mailto:gdehoog@wharton.upenn.edu">gdehoog@wharton.upenn.edu</a>
     </div>
   </header>
 
@@ -81,94 +84,48 @@
 
     <div class="entry">
       <div class="entry-head">
-        <span>University of Richmond, Richmond, VA</span>
-        <span class="date">May 2029</span>
+        <span>The Wharton School, University of Pennsylvania, Philadelphia, PA</span>
+        <span class="date">Aug 2026 – May 2030</span>
       </div>
-      <div class="role">Bachelor of Science, Business Administration (Finance Concentration) and Computer Science</div>
+      <div class="role">Bachelor of Science in Economics, Concentration in Finance</div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <span>University of Richmond, Richmond, VA</span>
+        <span class="date">Aug 2025 – May 2026</span>
+      </div>
+      <div class="role">Pursued a B.S. in Business Administration (Finance) and a B.S. in Computer Science</div>
       <ul>
         <li>Cumulative GPA: 4.00/4.00</li>
-        <li>Honors: Richmond Scholar (1 of 25 selected from 15,210 applicants; full tuition &amp; housing, priority registration and housing), Business Endeavor Program, Banking Bootcamp</li>
-        <li>Relevant Coursework: Risk Management, Calculus, Microeconomics, Applied Business</li>
+        <li>Attended for one year before transferring to Wharton</li>
+        <li>Richmond Scholar (1 of 25 selected from 15,210 applicants; full tuition &amp; housing, priority registration and housing)</li>
+        <li>Member of Alpha Kappa Psi; elected President of Scholars of Finance before leaving</li>
       </ul>
     </div>
 
     <div class="entry">
       <div class="entry-head">
         <span>Phillips Academy, Andover, MA</span>
-        <span class="date">Jun 2025</span>
+        <span class="date">Sep 2021 – Jun 2025</span>
       </div>
       <div class="role">Cum Laude Graduate</div>
       <ul>
-        <li>SAT: 1590/1600 (800 Math, 790 EBRW) | AP Scholar with Distinction</li>
-        <li>Athletics: Varsity Football Captain; Varsity Track &amp; Field</li>
+        <li>SAT: 1590/1600 (800 Math, 790 EBRW)</li>
+        <li>President, Andover Economics Society; Prefect, Taylor Hall</li>
+        <li>Athletics: Varsity Football; Varsity Track &amp; Field</li>
       </ul>
     </div>
   </section>
 
-  <section>
-    <h2>Experience</h2>
-
-    <div class="entry">
-      <div class="entry-head">
-        <span>Gilder Lehrman Institute of American History, New York, NY</span>
-        <span class="date">Jan 2022 – Jan 2025</span>
-      </div>
-      <div class="role">Student Advisory Council Member</div>
-      <ul>
-        <li>Designed and distributed a national interest-assessment form to students and educators to identify demand across historical topics</li>
-        <li>Analyzed survey results and presented recommendations to curriculum staff, directly informing the development of a new World War II course offering</li>
-        <li>Supported the course's rollout, which ultimately reached 15,000 students nationwide and increased student engagement by 28%</li>
-      </ul>
-    </div>
-
-    <div class="entry">
-      <div class="entry-head">
-        <span>Massachusetts Historical Society, Boston, MA</span>
-        <span class="date">Jun 2024 – Aug 2024</span>
-      </div>
-      <div class="role">John Winthrop Student Research Fellow</div>
-      <ul>
-        <li>Awarded selective, paid fellowship as the only high school recipient in Massachusetts</li>
-        <li>Conducted archival research on Union General Benjamin Butler using rare manuscripts</li>
-        <li>Presented original academic paper on the role of political satire in shaping memory</li>
-      </ul>
-    </div>
-  </section>
-
-  <section>
-    <h2>Leadership</h2>
-
-    <div class="entry">
-      <div class="entry-head">
-        <span>Taylor Hall, Andover, MA</span>
-        <span class="date">Aug 2024 – Jun 2025</span>
-      </div>
-      <div class="role">Dorm Prefect</div>
-      <ul>
-        <li>Led and took responsibility for 40 students, including a large cohort of international students</li>
-        <li>Mentored students on academics and mediated conflicts to support residential community</li>
-        <li>Coordinated dorm-wide programming, parent communications, and faculty engagement</li>
-      </ul>
-    </div>
-
-    <div class="entry">
-      <div class="entry-head">
-        <span>Andover Economics Society, Andover, MA</span>
-        <span class="date">Jan 2022 – Jan 2025</span>
-      </div>
-      <div class="role">Co-President</div>
-      <ul>
-        <li>Founded and expanded the first nationwide high school economics research journal</li>
-        <li>Recruited contributors and led editorial team producing economic research articles</li>
-        <li>Organized speaker events and educational programming for 150+ student members</li>
-      </ul>
-    </div>
-  </section>
-
-  <section>
-    <h2>Skills &amp; Interests</h2>
-    <p class="line"><strong>Skills:</strong> Excel, Python, French (Beginner), Microsoft Word, Zotero</p>
-    <p class="line"><strong>Interests:</strong> Artificial Intelligence, Football, Sumo Wrestling, History, Prediction Markets, Chinese Culture</p>
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="https://github.com/grantdehoog/cartogram">cartogram</a></li>
+      <li><a href="https://github.com/grantdehoog/local-tools">local-tools</a></li>
+      <li><a href="https://github.com/grantdehoog/Readalong">Readalong</a></li>
+      <li><a href="https://github.com/grantdehoog/mongolian-sumo">mongolian-sumo</a></li>
+    </ul>
   </section>
 </body>
 </html>
